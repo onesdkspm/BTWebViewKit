@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "BTWebViewKit",
-            targets: ["BTWebViewKit", "CommonResources"]
+            targets: ["BTWebViewKit", "BTWebViewKitCommonResources"]
         ),
     ],
     dependencies: [
@@ -17,14 +17,14 @@ let package = Package(
         .binaryTarget(
             name: "BTWebViewKit",
             url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTWebViewKit/2.0.0/BTWebViewKit.xcframework.zip",
-            checksum: "03ebfc6450bb60b2493380653c7581dec8dd8c4cb4683dd8fbeee42e8fdeb2ec"
+            checksum: "29b111393873ef2c299f5b7c7ce42ff21e71d14f73781d5b71bff537caac879d"
         ),
         
         // ========== Bundle Resources ==========
         .target(
-            name: "CommonResources",
+            name: "BTWebViewKitCommonResources",
             dependencies: [],
-            path: "CommonResources",
+            path: "BTWebViewKitCommonResources",
             exclude: ["Resources"],
             sources: ["Placeholder.swift"],
             resources: [.copy("Resources")],
