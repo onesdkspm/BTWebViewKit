@@ -16,8 +16,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "BTWebViewKit",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTWebViewKit/2.0.0/BTWebViewKit.xcframework.zip",
-            checksum: "29b111393873ef2c299f5b7c7ce42ff21e71d14f73781d5b71bff537caac879d"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTWebViewKit/2.0.1/BTWebViewKit.xcframework.zip",
+            checksum: "2a562d133ae18d84f708feaed3ba223eb8ecc411842189e2fa8f089aaa121651"
         ),
         
         // ========== Bundle Resources ==========
